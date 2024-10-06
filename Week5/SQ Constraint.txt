@@ -1,0 +1,26 @@
+Common Types of SQL Constraint:
+
+Primary Key: A PK does not allowed the duplicate and null entry,  A single table can have only
+single primary key.
+
+Foreign Key: A FK constraint is used to create a relationship between two table (referential integrity), A FK column of one table must match a value in the primary key or unique key column of another table.
+
+Not Null: I will not allowed not null in the column.
+
+Unique: In a column all the values should be unique or distinct.
+
+Check: It will ensures that all values in a column should be satisfy a specific condition.
+
+Default : Using this we can set a default value for a column when no value is specified during the data insertion.
+
+10:21:11	Insert into Employee_Table(EmpID,EmpName,Department_ID) Values (101,'Abhisheak',5)
+	Error Code: 1062. Duplicate entry '101' for key 'employee_table.PRIMARY'	0.000 sec
+
+10:21:43	Insert into Employee_Table(EmpID,EmpName,Department_ID) Values (102,'Abhisheak',5)	Error Code: 1452. Cannot add or update a child row: a foreign key constraint fails (`dataanalyst2024`.`employee_table`, CONSTRAINT `employee_table_ibfk_1` FOREIGN KEY (`Department_ID`) REFERENCES `department` (`DeptID`))	0.016 sec
+
+
+
+
+
+
+
