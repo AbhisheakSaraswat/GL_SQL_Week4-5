@@ -1,0 +1,49 @@
+def YourFunctionName(a,b):
+	print result ' display the result only
+	return result ' I am not display the result using return, utilize the result
+	
+*args
+def yourFunction(*args):
+	for i in *args:
+		print(do something)
+
+def YourFunction(*args, **kwargs):
+	
+
+lambda: lambda argument(s) : YourSingleExpression
+
+We can utilize the lambda function within a normal function
+
+def calcYourFunction(x):
+	1
+	2
+	3
+	4
+	5
+	...
+	20
+	return anyOutput
+lambda x: x(calYourFunction)
+
+---------------------
+map, filter, reduct
+map(function, iterables)
+filter(function or None, iterable) -> but filter supports also *args which
+means we can supply the multiple arguments as well if needed.
+
+reduce: from functools import reduce
+reduce(function, iterable)
+
+on the 1st step: reduce takes two arguments from iterable and stroed in 2 diff var.
+lst = 10,20,30,40,50]
+reduce(lambda x, y: x, lst)
+
+
+
+
+
+
+
+
+
+
