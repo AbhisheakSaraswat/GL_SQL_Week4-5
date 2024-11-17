@@ -1,0 +1,4 @@
+1. User Defined Function
+2. *Args and **Kwargs
+3. Lambda
+4. Map, Filter, Reduce
