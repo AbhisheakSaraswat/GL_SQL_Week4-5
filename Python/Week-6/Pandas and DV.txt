@@ -1,0 +1,12 @@
+Seaborn
+Data Transformation
+User defined function with Lambda
+Pandas Apply Function
+Pandas Pivot_table
+Pandas CrossTab
+Pandas Groupby
+Pandas describe
+Matplotlib
+Plotly.exress 
+plotly.graph_objects
+etc
